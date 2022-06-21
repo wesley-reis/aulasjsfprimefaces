@@ -1,4 +1,4 @@
-package br.com.framework.acessos;
+package br.com.project.acessos;
 
 import java.util.ArrayList;
 import java.util.Collections;
