@@ -71,7 +71,7 @@ public class ViewScope implements Scope, Serializable {
 	//getViewRoot()
 	//Retorna o componente raiz que está associado a esta solicitação(request).
 	//getViewMap retorna um Map que atua como a interface para o armazenamento de dados
-	@SuppressWarnings("unused")
+
 	private Map<String, Object> getViewMap(){
 		return FacesContext.getCurrentInstance() != null ? FacesContext.getCurrentInstance().getViewRoot().getViewMap() : new HashMap<String, Object>();
 	}
