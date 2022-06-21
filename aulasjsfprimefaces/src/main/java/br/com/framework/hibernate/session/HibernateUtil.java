@@ -112,7 +112,5 @@ public class HibernateUtil implements Serializable {
 		InitialContext context = new InitialContext();
 		return (DataSource) context.lookup(VariavelConexaoUtil.JAVA_COMP_ENV_JDBC_DATA_SOURCE);
 	}
-	
-	
-	
+		
 }
