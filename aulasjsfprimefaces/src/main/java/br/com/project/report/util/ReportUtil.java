@@ -56,13 +56,9 @@ public class ReportUtil implements Serializable{
 	
 	
 	@SuppressWarnings({ "unchecked", "deprecation" })
-	public StreamedContent geraRelatorio(List<?> listDataBeanColletionReport,
-			HashMap parametrosRelatorio, String nomeRelatorioJasper,
-			String nomeRelatorioSaida, int tipoRelatorio) throws JRException,
-			FileNotFoundException {
+	public StreamedContent geraRelatorio(List<?> listDataBeanColletionReport, HashMap parametrosRelatorio, String nomeRelatorioJasper, String nomeRelatorioSaida, int tipoRelatorio) throws JRException, FileNotFoundException {
 		/*Cria a lista de collectionDataSource de beans que carregam os dados para o relatório*/
-		JRBeanCollectionDataSource jrbcds = new JRBeanCollectionDataSource(
-				listDataBeanColletionReport);
+		JRBeanCollectionDataSource jrbcds = new JRBeanCollectionDataSource(listDataBeanColletionReport);
 
 		/*
 		 * Fornece o caminho fisico até a pasta que contem os relatórios
