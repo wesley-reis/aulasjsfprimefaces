@@ -94,5 +94,8 @@
 	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/start-1.0.1.jar"/>
 	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/taglib-core-0.4.jar"/>
 	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/xmlbeans-1.0.3.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/ui-darkness-1.0.10.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/midnight-1.0.10.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/bootstrap-1.0.10.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
